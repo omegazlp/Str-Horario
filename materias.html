@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/materias.css">
+    <script src="./js/base.js"></script>
     <title>Materias-Stratford</title>
 </head>
+<nav class="navbar navbar-dark bg-primary" id="nav">
+    <img src="./img/logo stratford.jpg" id="logo">
+    <a href="horarios.html">inicio</a>
+    <a href="#">Lista de Materias</a>
+    <a href="profesores.html">Lista de Profesores</a>
+    <a href="index.html" id="logout">
+        <button href="index.html" class="btn btn-danger">Cerrar Sesión</button>
+    </a>
+</nav>
 <body>
-    
+    <div id="buscar">
+        <div id="divmusmat">
+            <h2>Buscar <br> Materia</h2>
+            <input type="text" id="busmat">
+        </div>
+        <div id="editar">
+            <h2>Agregar Materia</h2>
+            <input type="text">
+            <h2>Editar Materia</h2>
+            <input type="text">
+            <h2>Eliminar Materia</h2>
+            <input type="text">
+        </div>
+    </div>
+    <div>
+        <table class="table table-info" id="tabla">
+            <tr>
+                <td>Materias Disponibles</td>
+            </tr>
+        </table>    
+    </div>
 </body>
 </html>
