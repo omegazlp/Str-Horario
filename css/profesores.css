@@ -1,0 +1,45 @@
+#logo{ 
+    width: 5%;
+    margin-left: 5%;
+    justify-content: left;
+    display: inline;
+}
+
+#nav{
+    display: flex;
+}
+
+#logout{
+    margin-right: 5%;
+    display: flex;
+    text-align: inherit;
+}
+
+a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 3rem;
+}
+
+#tabla{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#divmusmat{
+    width: 50%;
+    display: flex;
+}
+
+#buscar{
+    display: flex;
+    text-align: inherit;
+    align-items: center;
+}
+
+#busmat{
+    margin-top: 3%;
+    height: 10%;
+}
