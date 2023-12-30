@@ -1,0 +1,59 @@
+#logo{ 
+    width: 5%;
+    margin-left: 5%;
+    justify-content: left;
+    display: inline;
+}
+
+#nav{
+    display: flex;
+}
+
+#logout{
+    margin-right: 5%;
+    display: flex;
+    text-align: inherit;
+}
+
+a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 3rem;
+}
+
+#busquedas{
+    display: flex;
+    justify-content: space-between;
+}
+
+#botones{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content:space-around;
+}
+
+#buscar{
+    display: flex;
+    text-align: inherit;
+}
+
+#divmusmat,#divbuscprof,#divhora,#divdia{
+    width: 25%;
+    display: flex;
+}
+
+#tabla{
+    text-align: center;
+}
+
+h2{
+    margin-right: 3%;
+}
+
+#buscprof,#busmat,#hora{
+    margin-top: 5%;
+    height: 25%;
+}
